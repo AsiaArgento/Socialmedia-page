@@ -4,13 +4,18 @@
 html{
   font-family: sans-serif;
 }
+a{
+  text-decoration: none;
+}
+/*
+///////////////////////////////
+*/
 header{
   background: #3B5998;
   padding: 15px!important;
 }
 header a{
   color: #fff;
-  text-decoration: none;
   font-size: 12px;
   font-weight: 300;
 }
@@ -67,4 +72,52 @@ header .search-area{
 }
 header .search-area ul li{
   display: inline-block;
+}
+/*
+///////////////////////////////
+*/
+
+#top-area{
+  padding: 200px 15px 90px 15px;
+  background: url(https://wallpapercave.com/wp/wp4203781.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#top-area .profile-info .user-img{
+  padding: 10px;
+  display: inline-block;
+}
+#top-area .profile-info .user-img img{
+  border-radius: 50%;
+}
+#top-area .profile-info .user-details{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+}
+#top-area .profile-info .user-details h3{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+#top-area .profile-info .user-details a{
+  display: inline-block;
+  margin-left: -4px;
+  margin-right: 5%;
+  width: 45%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(255,255,255, .3);
+  transition: background .4s ease-in-out;
+}
+#top-area .profile-info .user-details a:hover{
+  background: #2196F3;
 }

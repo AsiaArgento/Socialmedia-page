@@ -138,12 +138,6 @@ header .search-area ul li{
   margin: 0 2.5%;
   max-width: 380px;
 }
-#content-area .main-area{
-  float: left;
-  width: 55%;
-  margin: 0 2.5%;
-  height: 600px;
-}
 #content-area .widget-box{
   padding: 15px;
   background: #fff;
@@ -188,4 +182,43 @@ header .search-area ul li{
 }
 #content-area .widget-box .body{
   padding: 20px 0;
+}
+
+/*
+///////////////////////////////
+*/
+
+#content-area .main-area .widget-box.submenu{
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+#content-area .main-area .submenu ul{
+  padding: 0;
+
+}
+#content-area .main-area .submenu ul li{
+  display: inline-block;
+  padding: 10px;
+  width: 20%;
+  float: left;
+  text-align: center;
+  border-bottom: 3px solid #fff;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}
+#content-area .main-area .submenu ul li:hover{
+  border-bottom: 3px solid #2196F3;
+  color: #2196F3;
+}
+#content-area .main-area .submenu ul li:nth-child(5){
+  padding: 22px 0 21px;
+}
+#content-area .main-area .submenu ul li .fas{
+  font-size: 20px;
+}
+#content-area .main-area .submenu ul li span{
+  display: block;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+  font-size: 14px;
 }

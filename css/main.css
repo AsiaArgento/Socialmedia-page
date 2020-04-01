@@ -121,3 +121,30 @@ header .search-area ul li{
 #top-area .profile-info .user-details a:hover{
   background: #2196F3;
 }
+
+#content-area{
+
+}
+#content-area .side-column{
+  float: left;
+  width: 35%;
+  margin: 0 2.5%;
+  height: 600px;
+}
+#content-area .main-area{
+  float: left;
+  width: 55%;
+  margin: 0 2.5%;
+  height: 600px;
+}
+#content-area .side-column .widget-box .widget-tile{
+  display: inline-block;
+  float: left;
+  height: 110px;
+  width: 33.33%;
+  background: url(https://wallpapercave.com/wp/wp4203781.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

@@ -73,6 +73,7 @@ header .search-area{
 header .search-area ul li{
   display: inline-block;
 }
+
 /*
 ///////////////////////////////
 */
@@ -122,14 +123,20 @@ header .search-area ul li{
   background: #2196F3;
 }
 
-#content-area{
+/*
+///////////////////////////////
+*/
 
+#content-area{
+  background: #FAFAFA;
+  overflow: auto;
+  padding: 50px 0;
 }
 #content-area .side-column{
   float: left;
   width: 35%;
   margin: 0 2.5%;
-  height: 600px;
+  max-width: 380px;
 }
 #content-area .main-area{
   float: left;
@@ -137,7 +144,38 @@ header .search-area ul li{
   margin: 0 2.5%;
   height: 600px;
 }
-#content-area .side-column .widget-box .widget-tile{
+#content-area .widget-box{
+  padding: 15px;
+  background: #fff;
+  margin: 0 0 15px 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);
+  -moz-box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);
+  box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);
+  overflow: auto;
+}
+#content-area .widget-box .head .widget-icon{
+  background: #BFBFBF;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content-area .widget-box .head .widget-title{
+  display: inline-block;
+  padding: 0 0 0 10px;
+}
+#content-area .widget-box .head .widget-icon-container{
+  display: inline-block;
+}
+#content-area .widget-box .head .widget-icon .fas{
+  max-width: 50%;
+  font-size: 22px;
+}
+#content-area .widget-box .widget-tile{
   display: inline-block;
   float: left;
   height: 110px;
@@ -147,4 +185,7 @@ header .search-area ul li{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+#content-area .widget-box .body{
+  padding: 20px 0;
 }
